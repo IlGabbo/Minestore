@@ -1,0 +1,249 @@
+.control-panel {
+    width: 77.72%; 
+    height: 93%;
+    overflow-y: auto;
+    margin-left: 37px;
+    margin-top: 37px;
+    position: relative;
+}
+
+.path-container {
+    width: 292px;
+    height: 45px;
+    background-color: #1F2A37;
+    border-radius: 8px;
+    border: 1px solid #374151;
+    display: flex;
+    align-items: center;    
+}
+
+.current-option {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.current-option-logo {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-right: 18px;
+    margin-left: 20px;
+}
+
+.current-option-title,
+.path {
+    font-size: 14px;
+    color: #9CA3AF;   
+    font-weight: 500; 
+}
+
+.current-path {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.arrow-path {
+    width: 20px;
+    height: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+    background-image: url(/public/static/images/icons/chevron-right.svg);
+}
+
+.user-logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    right: calc(100% - 85%);
+    background-image: url(/public/static/images/user/Avatar.png);
+}
+
+.staff-sales {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
+.data-container {
+    flex-shrink: 0;
+    width: 292px;
+    height: 163px;
+    background-color: #1F2A37;
+    border: 1px solid #374151;
+    border-radius: 8px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-and-title {
+    width: 79.92%;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+.data-logo {
+    width: 40px;
+    height: 40px;
+    background-image: url(/public/static/images/icons/users.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.data-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 8px;
+    text-size-adjust: .5;
+}
+
+.count {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.when {
+    color: #fff;
+    font-size: 15px;
+}
+
+.cash {
+    background-image: url(/public/static/images/icons/cash.svg);
+}
+
+.calendar {
+    background-image: url(/public/static/images/icons/calendar.svg);
+}
+
+.receipt-refund {
+    background-image: url(/public/static/images/icons/receipt-refund.svg);
+}
+
+.users-data {
+    width: 85%;
+    height: 38%;
+    overflow: auto;
+    position: relative;
+}
+
+table {
+    width: 100%;   
+    border-collapse: collapse; 
+    border: 1px solid #374151;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+th {
+    height: 50px;
+    background-color: #374151;    
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 16px;    
+}
+
+td.user-date {
+    color: #9CA3AF;
+}
+
+td {
+    height: 50px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 16px;
+    background-color: #1F2A37;
+}
+
+.received-data {
+    border-bottom: 1px solid #374151;
+}
+
+.status {
+    width: 102px;
+    height: 22px;
+    background-color: #374151;       
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-done {
+    border: 1px solid #31C48D; 
+}
+
+.status-pending {
+    border: 1px solid #FACA15; 
+}
+
+.status-in-progress {
+    border: 1px solid #AC94FA; 
+}
+
+.status-icon {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;    
+}
+
+.done {
+    background-image: url(/public/static/images/icons/check-circle.svg);
+}
+
+.pending {
+    background-image: url(/public/static/images/icons/clock.svg);
+}
+
+.in-progress {
+    background-image: url(/public/static/images/icons/cloud.svg);
+}
+
+.done-title,
+.pending-title,
+.in-progress-title {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.done-title {
+    color: #31C48D;
+}
+
+.pending-title {
+    color: #FACA15;
+}
+
+.in-progress-title {
+    color: #AC94FA;
+}
+
+.staff-users-panel {
+    width: 60%;
+    height: 60%;
+    margin-top: 33px;
+    background-color: #1F2A37;
+    border: 1px solid #374151;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

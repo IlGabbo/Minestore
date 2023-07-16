@@ -4,8 +4,15 @@
     padding-bottom: 100%;
 }
 
+.window {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
 /* ========== sidebar ========== */
 .sidebar {
+    flex-shrink: 0;
     width: 230px;
     height: 100%;
     background-color: #1f2a37;
@@ -22,6 +29,10 @@
 .coral_logo-title {
     width: 50%;
     position: relative;    
+}
+
+.coral_logo-title:hover {
+    cursor: pointer;
 }
 
 .coral_logo-title_content {
@@ -101,11 +112,11 @@
     margin-left: 8px;
 }
 
-.control-panel {
+.control-panel-logo {
     background-image: url(/public/static/images/icons/home.svg);
 }
 
-.variables {
+.variables-logo {
     background-image: url(/public/static/images/icons/variable.svg);
 }
 
@@ -209,4 +220,8 @@
 
 .cog {
     background-image: url(/public/static/images/icons/cog.svg);
+}
+
+.window-centered {
+    position: relative;
 }
