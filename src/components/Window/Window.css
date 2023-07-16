@@ -1,0 +1,212 @@
+.square::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+/* ========== sidebar ========== */
+.sidebar {
+    width: 230px;
+    height: 100%;
+    background-color: #1f2a37;
+    position: relative;
+}
+
+.coral-container {  /* coral logo, coral title */
+    width: 100%;
+    height: 150px;
+    display: grid;
+    place-items: center;
+}
+
+.coral_logo-title {
+    width: 50%;
+    position: relative;    
+}
+
+.coral_logo-title_content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.coral-logo {
+    width: 100%;
+    height: 50px;
+    background-image: url(/public/static/images/coral/FiA0Ynj.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.coral-title {
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;    
+}
+
+.sidebar-options {  /* options */
+    width: 100%;
+    height: 70%;    
+    overflow-y: auto;
+}
+
+.main {
+    width: 100%;
+    min-height: 30%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #374151;
+}
+
+.options-centered {
+    width: 90%;
+    height: 100%;    
+}
+
+.option {
+    width: 100%;
+    min-height: 36px;    
+    margin-bottom: 14px;
+    position: relative; 
+    border-radius: 7px;     
+}
+
+.option:hover {
+    cursor: pointer;
+    background-color: #374151;
+}
+
+.option-selected {
+    background-color: #374151;
+}
+
+.option-content {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    align-items: center;    
+    border-radius: 7px;
+}
+
+.option-logo {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 8px;
+}
+
+.control-panel {
+    background-image: url(/public/static/images/icons/home.svg);
+}
+
+.variables {
+    background-image: url(/public/static/images/icons/variable.svg);
+}
+
+.option-title {
+    color: #fff;
+    margin-left: 14px;
+    font-size: 15px;
+}
+
+.settings-panel-opt {
+    background-image: url(/public/static/images/icons/chemical.svg);
+}
+
+.arrow {
+    width: 28px;
+    height: 36px;
+    position: absolute;
+    top: 0;    
+    right: 8px;
+    background-image: url(/public/static/images/icons/arrow.svg);  
+    background-size: contain;  
+    background-position: center;
+    transition: all .1s linear;
+}
+
+.arrow-rotated {
+    transform: rotate(180deg);
+}
+
+.settings-selector, .discount-selector {
+    position: relative;
+    top: 10px;
+    border-radius: 7px;
+    background-color: #374151;    
+}
+
+.discount-panel-opt {
+    background-image: url(/public/static/images/icons/tag.svg);
+}
+
+.pages-cms-logo {
+    background-image: url(/public/static/images/icons/desktop-computer.svg);
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: #374151;
+}
+
+.docs {
+    margin-top: 17px;
+}
+
+.docs-logo {
+    background-image: url(/public/static/images/icons/clipboard-list.svg);
+}
+
+.dashboard-logo {
+    background-image: url(/public/static/images/icons/link.svg);
+}
+
+.help-logo {
+    background-image: url(/public/static/images/icons/support.svg);
+}
+
+.main:last-child {
+    border: none;
+}
+
+.sidebar-bottom-icons {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 16px;
+    width: 50.43%;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 24px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.icon:hover {
+    cursor: pointer;
+    background-color: #374151;
+}
+
+.adjustments {
+    background-image: url(/public/static/images/icons/adjustments.svg);
+}
+
+.globe {
+    background-image: url(/public/static/images/icons/globe.svg);
+}
+
+.cog {
+    background-image: url(/public/static/images/icons/cog.svg);
+}
